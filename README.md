@@ -2,6 +2,14 @@
 
 A Flutter app for saving, organizing, and cooking from personal recipes.
 
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1a525cf-c8a8-477c-a009-e6425ad65f90" alt="OpenKuhnya recipe list" width="30%" />
+  <img src="https://github.com/user-attachments/assets/a815d6a2-83c0-4d11-9be7-747f5fd9e148" alt="OpenKuhnya shopping list" width="30%" />
+  <img src="https://github.com/user-attachments/assets/66f68984-4f59-4c94-9311-ed349be4d23c" alt="OpenKuhnya settings" width="30%" />
+</p>
+
 ## Features
 
 - Create, edit, search, import, and export recipes.
