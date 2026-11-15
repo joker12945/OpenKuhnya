@@ -1,4 +1,4 @@
-<img width="1080" height="2424" alt="set" src="https://github.com/user-attachments/assets/880fbf5e-3cd7-4dbc-af3a-e74f84cc9eb0" /># OpenKuhnya
+# OpenKuhnya
 
 A Flutter app for saving, organizing, and cooking from personal recipes.
 
@@ -35,6 +35,7 @@ the assembled recipe before saving.
 
 Run the app with `flutter run` and validate it with `flutter analyze` and
 `flutter test`.
-<img width="1080" height="2424" alt="rec" src="https://github.com/user-attachments/assets/d1a525cf-c8a8-477c-a009-e6425ad65f90" />
+<img src="https://github.com/user-attachments/assets/d1a525cf-c8a8-477c-a009-e6425ad65f90" alt="rec" width="35%" />
+
 <img width="1080" height="2424" alt="shop" src="https://github.com/user-attachments/assets/a815d6a2-83c0-4d11-9be7-747f5fd9e148" />
 <img width="1080" height="2424" alt="set" src="https://github.com/user-attachments/assets/66f68984-4f59-4c94-9311-ed349be4d23c" />
