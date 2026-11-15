@@ -1,2 +1,2 @@
 # OpenKuhnya
-A simple recipe app for organizing, and managing your favorite recipes. Add ingredients and instructions, then keep everything in one place for easy cooking and planning.
+OpenKuhnya is a Flutter app for saving, organizing, and cooking from your personal recipes. Create and import recipes, scale ingredients, follow steps in cooking mode, and build a shopping list—all stored locally on your device.
