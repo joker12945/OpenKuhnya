@@ -31,10 +31,38 @@ Settings. In text import, each
 blank-line-separated paragraph becomes one ingredient or method step. Review
 the assembled recipe before saving.
 
+## Install on iPhone
+
+There is no iOS download in the GitHub Releases yet. You cannot install an iPhone
+app directly from this repository like an Android APK; an iOS build must be
+signed and distributed through Apple's supported options, such as TestFlight
+or the App Store.
+
+To build and run OpenKuhnya from source on your own iPhone, you need a Mac with
+Flutter and Xcode installed:
+
+1. Clone this repository and open a Terminal in the project folder.
+2. Fetch the Flutter packages:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Open the iOS workspace in Xcode:
+
+   ```bash
+   open ios/Runner.xcworkspace
+   ```
+
+4. In Xcode, select the **Runner** target, open **Signing & Capabilities**, and
+   select your Apple development team. Connect your iPhone, select it as the
+   run destination, then click **Run**.
+
+The iOS project currently targets iOS 15.0 and later. To distribute the app to
+other people, configure Apple distribution signing and publish through
+TestFlight or the App Store.
+
 ## Development
 
 Run the app with `flutter run` and validate it with `flutter analyze` and
 `flutter test`.
-<img src="https://github.com/user-attachments/assets/d1a525cf-c8a8-477c-a009-e6425ad65f90" alt="rec" width="30%" />
-  <img src="https://github.com/user-attachments/assets/a815d6a2-83c0-4d11-9be7-747f5fd9e148" alt="shop" width="30%" />
-  <img src="https://github.com/user-attachments/assets/66f68984-4f59-4c94-9311-ed349be4d23c" alt="set" width="30%" />
