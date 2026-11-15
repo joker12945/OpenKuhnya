@@ -94,6 +94,31 @@ The iOS project targets iOS 15.0 and later.
 Recipes and shopping-list data are stored locally on your device. Recipe JSON
 files can be imported and backed up from Settings.
 
+## Import and export recipes
+
+### Import from text
+
+From the recipe list, choose **Import from text**. Paste a recipe, then review
+and edit its title, ingredients, and method steps before saving. Each
+blank-line-separated paragraph in the ingredient or method field becomes one
+ingredient or cooking step.
+
+### Import a recipe or backup file
+
+In **Settings**, choose **Import recipes from JSON** and select an OpenKuhnya
+JSON file. Imported recipes are merged with your current library: new recipes
+are added, changed recipes are updated, and unchanged recipes are skipped. The
+app saves a safety copy of your current library before importing.
+
+### Export and back up
+
+- Open a recipe, use its menu, and choose **Export** to save one recipe as a
+  JSON file.
+- In **Settings**, choose **Backup to device** to save all recipes as one JSON
+  backup file.
+- You can enable automatic weekly backups in **Settings**. They stay in the
+  app's private storage and can be restored from the same screen.
+
 ## Development
 
 Run the app:
