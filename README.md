@@ -2,6 +2,11 @@
 
 A Flutter app for saving, organizing, and cooking from personal recipes.
 
+## Download
+
+Get the latest Android APK and macOS DMG from the
+[Releases page](https://github.com/joker12945/OpenKuhnya/releases/latest).
+
 ## Screenshots
 
 <p align="center">
@@ -32,6 +37,22 @@ A Flutter app for saving, organizing, and cooking from personal recipes.
   The app follows the device theme by default, with an option to switch back.
 - View the app version in Settings.
 - See a quick tutorial on first launch, reopenable from the recipe list.
+
+## Install on Android
+
+1. Download `OpenKuhnya.apk` from the latest release.
+2. Open the downloaded file on your Android device.
+3. If Android asks, allow your browser or Files app to install unknown apps.
+4. Tap **Install**, then open OpenKuhnya.
+
+## Install on macOS
+
+1. Download `OpenKuhnya.dmg` from the latest release.
+2. Open the DMG and drag OpenKuhnya to your Applications folder.
+3. Open the app from Applications.
+
+macOS may display a warning because the current release is not notarized by Apple.
+Control-click the app, choose **Open**, then choose **Open** again.
 
 Recipes and the shopping list are stored locally in the app's documents
 directory. Recipe JSON files can be imported and backed up to the device from
@@ -66,11 +87,28 @@ Flutter and Xcode installed:
    select your Apple development team. Connect your iPhone, select it as the
    run destination, then click **Run**.
 
-The iOS project currently targets iOS 15.0 and later. To distribute the app to
-other people, configure Apple distribution signing and publish through
-TestFlight or the App Store.
+The iOS project targets iOS 15.0 and later.
+
+## Privacy and data
+
+Recipes and shopping-list data are stored locally on your device. Recipe JSON
+files can be imported and backed up from Settings.
 
 ## Development
 
-Run the app with `flutter run` and validate it with `flutter analyze` and
-`flutter test`.
+Run the app:
+
+```bash
+flutter run
+```
+
+Validate the project:
+
+```bash
+flutter analyze
+flutter test
+```
+
+## License
+
+OpenKuhnya is available under the [MIT License](LICENSE).
