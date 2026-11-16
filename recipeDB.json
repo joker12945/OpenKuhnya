@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "recipes": [
+    {
+      "id": "hnox4vd64b-55ec93d723f9230c",
+      "title": "Bread",
+      "description": "Oven bread",
+      "servings": 4,
+      "prepMinutes": 10,
+      "ingredients": [
+        { "name": "Flour", "quantity": 500.0, "unit": "g" },
+        { "name": "Water", "quantity": 280.0, "unit": "ml" },
+        { "name": "Butter", "quantity": 10.0, "unit": "g" },
+        { "name": "Salt", "quantity": 10.0, "unit": "g" },
+        { "name": "Yeast", "quantity": 5.0, "unit": "g" }
+      ],
+      "steps": [
+        "Mix dry ingredients",
+        "Add a water",
+        "Knead until elastic/bouncy texture (~10 mins)",
+        "Let it rise for 15-20min until size doubles",
+        "Bake at 180°C for 45-50min"
+      ],
+      "tags": [ "Bread", "Simple" ],
+      "createdAt": "2026-10-30T10:54:19.537176Z",
+      "updatedAt": "2026-10-30T10:55:12.850118Z"
+    },
+    {
+      "id": "pizza-on-toast-09337",
+      "title": "Pizza on toast",
+      "description": "A quick and customizable pizza-style toast grilled to perfection.",
+      "servings": 1,
+      "prepMinutes": 5,
+      "ingredients": [
+        {
+          "name": "White or brown bread",
+          "quantity": 1.0,
+          "unit": "thick slice"
+        },
+        {
+          "name": "Pasta sauce, pizza topping, tomato salsa or passata",
+          "quantity": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Thinly sliced chorizo, salami, ham, mushrooms, roasted peppers, sun-dried tomatoes, olives, or jalapeños",
+          "quantity": 1.0,
+          "unit": "handful"
+        },
+        {
+          "name": "Cheese (such as grated Cheddar, ready-grated mozzarella, or a mixture)",
+          "quantity": 30.0,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        "Preheat the grill to a medium-high setting.",
+        "Place the bread on a baking tray or grill pan and grill on one side until lightly toasted.",
+        "Turn the bread over and spread with the tomato sauce.",
+        "Top with the chorizo, mushrooms, or any other chosen toppings.",
+        "Sprinkle with the cheese.",
+        "Return to the grill for a further 2–3 minutes, or until the cheese melts and the toppings are hot."
+      ],
+      "tags": [
+        "Pizza",
+        "Toast",
+        "Quick",
+        "Vegetarian Option"
+      ],
+      "createdAt": "2026-10-30T14:42:00.000000Z",
+      "updatedAt": "2026-10-30T14:42:00.000000Z"
+    }
+  ]
+}
