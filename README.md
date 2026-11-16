@@ -4,7 +4,7 @@ A Flutter app for saving, organizing, and cooking from personal recipes.
 
 ## Download
 
-Get the latest Android APK and macOS DMG from the
+Get the latest Android APK, Windows ZIP, and macOS DMG from the
 [Releases page](https://github.com/joker12945/OpenKuhnya/releases/latest).
 
 ## Screenshots
@@ -44,6 +44,15 @@ Get the latest Android APK and macOS DMG from the
 2. Open the downloaded file on your Android device.
 3. If Android asks, allow your browser or Files app to install unknown apps.
 4. Tap **Install**, then open OpenKuhnya.
+
+## Install on Windows
+
+1. Download `OpenKuhnya-Windows-x64.zip` from the latest release.
+2. Extract the ZIP to a folder.
+3. Run `openkuhnya.exe` from that folder. Keep the executable and its
+   accompanying files together.
+
+Windows may show a SmartScreen warning because the app is not code-signed.
 
 ## Install on macOS
 
@@ -133,6 +142,12 @@ Validate the project:
 flutter analyze
 flutter test
 ```
+
+To publish a Windows release, update the version in `pubspec.yaml`, then push a
+matching version tag starting with `v` (for example, `1.2.2+1` uses tag
+`v1.2.2`). GitHub Actions builds the Windows ZIP and attaches it to a GitHub
+Release. Pushes to `main` or `master` still create a downloadable build artifact
+without publishing a release.
 
 ## License
 
